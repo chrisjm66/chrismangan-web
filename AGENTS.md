@@ -4,6 +4,13 @@
 - **Package Manager**: pnpm
 - **Add-ons**: prettier, eslint, tailwindcss, ai-tools
 
+## Site Conventions
+
+- Prefer Tailwind utility classes for styling; add custom CSS only for genuinely shared global rules.
+- Keep primary navigation in `src/lib/components/SiteNav.svelte` so every page uses the same links.
+- Keep OpenRCS copy in `src/lib/openrcs-content.ts` and use that content from the route.
+- Preserve the site's restrained visual language: system typography, light-purple personal pages, and black, white, and purple for OpenRCS.
+
 ---
 
 You are able to use the Svelte MCP server, where you have access to comprehensive Svelte 5 and SvelteKit documentation. Here's how to use the available tools effectively:
