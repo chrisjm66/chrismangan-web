@@ -1,6 +1,6 @@
 <script lang="ts">
-	import SiteNav from '$lib/components/SiteNav.svelte';
-	import { openRcsContent } from '$lib/openrcs-content';
+	import SiteNav from '#lib/components/SiteNav.svelte';
+	import { openRcsContent } from '#lib/openrcs-content.js';
 </script>
 
 <!-- eslint-disable svelte/no-navigation-without-resolve -->

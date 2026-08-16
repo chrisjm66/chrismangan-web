@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import SiteNav from '$lib/components/SiteNav.svelte';
+	import SiteNav from '#lib/components/SiteNav.svelte';
 </script>
 
 <svelte:head>
@@ -20,30 +20,34 @@
 			>
 				Chris Mangan
 			</h1>
+
 			<nav class="mt-8 flex flex-wrap justify-center gap-5" aria-label="Social links">
 				<a
 					class="group inline-flex items-center gap-1.5 border-b border-[#6f3cc3]/30 pb-1 text-sm font-medium text-[#6f3cc3] no-underline transition-[border-color,color,transform] duration-150 ease-out hover:border-[#6f3cc3] hover:text-[#4e2593] focus-visible:ring-3 focus-visible:ring-[#6f3cc3]/35 focus-visible:outline-none active:translate-y-px"
 					href="https://www.linkedin.com/in/manganchris/"
 					target="_blank"
 					rel="noopener noreferrer"
-					>LinkedIn <span class="transition-transform duration-150 group-hover:translate-x-0.5"
-						>↗</span
-					></a
 				>
+					LinkedIn
+
+					<span class="transition-transform duration-150 group-hover:translate-x-0.5">↗</span>
+				</a>
+
 				<a
 					class="group inline-flex items-center gap-1.5 border-b border-[#6f3cc3]/30 pb-1 text-sm font-medium text-[#6f3cc3] no-underline transition-[border-color,color,transform] duration-150 ease-out hover:border-[#6f3cc3] hover:text-[#4e2593] focus-visible:ring-3 focus-visible:ring-[#6f3cc3]/35 focus-visible:outline-none active:translate-y-px"
 					href="https://github.com/chrisjm66"
 					target="_blank"
 					rel="noopener noreferrer"
-					>GitHub <span class="transition-transform duration-150 group-hover:translate-x-0.5"
-						>↗</span
-					></a
 				>
+					GitHub
+
+					<span class="transition-transform duration-150 group-hover:translate-x-0.5">↗</span>
+				</a>
 			</nav>
 		</div>
 		<a
 			class="absolute bottom-8 inline-flex items-center gap-2 text-xs font-medium tracking-[.08em] text-[#5a4f73] uppercase no-underline transition-colors hover:text-[#6f3cc3] focus-visible:ring-3 focus-visible:ring-[#6f3cc3]/35 focus-visible:outline-none"
-			href={resolve('/#openrcs-project')}>Scroll <span aria-hidden="true">↓</span></a
+			href={resolve('#openrcs-project')}>Scroll <span aria-hidden="true">↓</span></a
 		>
 	</section>
 
@@ -63,20 +67,22 @@
 				<p
 					class="mt-4 mb-0 max-w-110 text-[clamp(1rem,1.4vw,1.125rem)] leading-relaxed text-[#5a4f73]"
 				>
-					Open Source Rail Control Simulator, a detailed & open source railroad signalling simulator that I am creating to deeply simulate railroad signalling logic
+					Open Source Rail Control Simulator, a detailed & open source railroad signalling simulator
+					that I am creating to deeply simulate railroad signalling logic
 				</p>
 			</div>
 			<a
 				class="mt-auto inline-flex w-fit items-center gap-2 text-sm font-semibold text-[#6f3cc3] no-underline transition-transform duration-150 hover:translate-x-1 focus-visible:ring-3 focus-visible:ring-[#6f3cc3]/35 focus-visible:outline-none"
-				href={resolve('/openrcs')}>View project <span>→</span></a
+				href={resolve('openrcs')}>View project <span>→</span></a
 			>
 		</div>
 		<a
 			class="group relative min-h-60 overflow-hidden bg-[#1e1630] [background:linear-gradient(135deg,#281b43,#1e1630)] focus-visible:ring-3 focus-visible:ring-[#6f3cc3]/35 focus-visible:outline-none"
-			href={resolve('/openrcs')}
+			href={resolve('openrcs')}
 			aria-label="View OpenRCS"
 		>
 			<div class="absolute inset-x-0 top-1/2 border-t border-[#c5a9ff]/25"></div>
+
 			<div
 				class="absolute top-[30%] right-[20%] size-3 rounded-full border border-[#c5a9ff]/55"
 			></div>

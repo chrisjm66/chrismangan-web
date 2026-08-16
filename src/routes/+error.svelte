@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import SiteNav from '$lib/components/SiteNav.svelte';
+	import SiteNav from '#lib/components/SiteNav.svelte';
 </script>
 
 <svelte:head>

@@ -20,7 +20,7 @@
 	<div class="flex items-center gap-5 text-xs">
 		<a
 			class="no-underline transition-colors focus-visible:ring-2 focus-visible:ring-[#8b5cf6] focus-visible:outline-none"
-			href={resolve('/openrcs')}>OpenRCS</a
+			href={resolve('openrcs')}>OpenRCS</a
 		>
 		<a
 			class="no-underline transition-colors focus-visible:ring-2 focus-visible:ring-[#8b5cf6] focus-visible:outline-none"
