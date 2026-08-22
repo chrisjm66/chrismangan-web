@@ -24,6 +24,6 @@ export const openRcsContent = {
 		'Interlocking logic brings routes, points, track occupancy, and signal aspects together. A route request has to fit the state of the railway, and the simulator can make the consequences of that decision visible. The aim is to make safe movement feel like an outcome of the system, not a rule bolted on afterward.',
 		'The signalling diagram and scenario editor will make it possible to shape the railway itself. Edit tracks, signals, and the visual diagram, then define the scenario around the way that railway is meant to operate. It should be practical to build something small for experimentation or something richer for a longer session.',
 		'Timetables give the simulation a reason to keep moving. Run a planned service, then add delays, conflicts, disruptions, and the small operational problems that make railway control interesting. The fun is in resolving a live situation without losing the larger plan.',
-		'OpenRCS is written in Go and released under GPLv3. It is intended to be a project people can study, improve, adapt, and share. The open-source model also makes it easier for new signalling systems, layouts, and scenarios to grow with the community.'
+		'OpenRCS is written in Rust and Typescript, and licensed under GPLv3. It is intended to be a project people can study, improve, adapt, and share. The open-source model also makes it easier for new signalling systems, layouts, and scenarios to grow with the community.'
 	]
 };

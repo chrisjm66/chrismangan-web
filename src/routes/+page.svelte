@@ -68,7 +68,6 @@
 					class="mt-4 mb-0 max-w-110 text-[clamp(1rem,1.4vw,1.125rem)] leading-relaxed text-[#5a4f73]"
 				>
 					Open Source Rail Control Simulator, a detailed & open source railroad signalling simulator
-					that I am creating to deeply simulate railroad signalling logic
 				</p>
 			</div>
 			<a
